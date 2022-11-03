@@ -1,0 +1,66 @@
+html{
+    min-height:100%;
+
+    background-image: linear-gradient(#FE4141, #890808);
+    font-family:'Raleway', sans-serif;
+    color: #FFFFFF;
+}
+
+.profile-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+}
+
+img{
+    width: 96px;
+    height: 96px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.profile-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    max-width: 680px;
+}
+
+.button{
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+
+    padding-top: 14px;
+    padding-bottom: 14px;
+    width: 100%;
+
+    margin-top: 12px;
+
+    transition: background-color 0.5s, color0.5s;
+}
+
+.button:hover{
+    color: #890808;
+    background-color: #FFFFFF;
+}
+
+.profile-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+    max-width: 680px;
+}
